@@ -35,6 +35,12 @@ console.log(fullName);
   - Console.log your last favorite food
 */
 
+console.log(me.favThreeFoods[0]);
+console.log(me.favThreeFoods[me.favThreeFoods.length - 1]);
+// in case someone adds another favorite food, the above will always be the last entry in the array
+// although the name is favThreeFoods, so I guess that's improbable
+// could also be console.log(me.favThreeFoods[2]);
+
 
 
 /* 4. Change a property of an existing object.
