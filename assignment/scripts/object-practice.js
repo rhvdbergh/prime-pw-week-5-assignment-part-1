@@ -26,7 +26,7 @@ console.log('A little about me:', me);
 */
 
 const fullName = me.firstName + ' ' + me.lastName;
-console.log(fullName);
+console.log('My full name is:', fullName);
 
 
 
@@ -35,8 +35,8 @@ console.log(fullName);
   - Console.log your last favorite food
 */
 
-console.log(me.favThreeFoods[0]);
-console.log(me.favThreeFoods[me.favThreeFoods.length - 1]);
+console.log('My first favorite food is:', me.favThreeFoods[0]);
+console.log('My last favorite foods is:', me.favThreeFoods[me.favThreeFoods.length - 1]);
 // in case someone adds another favorite food, the above will always be the last entry in the array
 // although the name is favThreeFoods, so I guess that's improbable
 // could also be console.log(me.favThreeFoods[2]);
@@ -50,9 +50,9 @@ console.log(me.favThreeFoods[me.favThreeFoods.length - 1]);
   - Console.log your updated shoe count.
 */
 
-console.log(me.shoeCount);
+console.log(`I have ${me.shoeCount} pairs of shoes`);
 me.shoeCount++; // another pair of shoes added! could also be me.shoeCount = me.shoeCount + 1;
-console.log(me.shoeCount);
+console.log(`Huzzah! I just got one more pair of shoes and now I have ${me.shoeCount} pairs of shoes`);
 
 
 /* 5. Add a new property to an existing object.
@@ -63,4 +63,4 @@ console.log(me.shoeCount);
 */
 
 me.favoriteColor = 'green';
-console.log(me);
+console.log('I discovered something more about myself: I have a favorite color! This is what I know about myself now:', me);
